@@ -1,5 +1,6 @@
 package Algorithms;
 
+import java.util.HashMap;
 import java.util.Stack;
 
 /*
@@ -8,17 +9,27 @@ Check if parentheses are correct
 public class ValidParentheses {
 
     public boolean isValid(String s) {
-
+        HashMap map = new HashMap();
+        map.put('(',')');
+        map.put('[',']');
+        map.put('{','}');
         Stack<Character> stack = new Stack<>();
 
-        for(int i = 0; i < s.length(); i++) {
-            char a = s.charAt(i);
-            if(a == '(' || a == '[' || a == '{') stack.push(a);
-            else if(stack.empty()) return false;
-            else if(a == ')' && stack.pop() != '(') return false;
-            else if(a == ']' && stack.pop() != '[') return false;
-            else if(a == '}' && stack.pop() != '{') return false;
+        for(int i = 0;i < s.length();i++){
+            char c = s.charAt(i);
+            if(c == '(' || c == '{' || c == '['){
+                stack.push(c);
+            }else{
+                if(stack.isEmpty()){
+                    return false;
+                }
+                if(map.get(stack.pop()).equals(c)){
+                    continue;
+                }else{
+                    return false;
+                }
+            }
         }
-        return stack.empty();
+        return stack.isEmpty();
     }
 }
