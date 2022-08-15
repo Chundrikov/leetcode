@@ -29,6 +29,5 @@ class Solution {
         }
 
         return result;
-
     }
 }
