@@ -25,9 +25,4 @@ public class SimpleFixedStack {
         return stackCapacity == 0;
     }
 
-    public static void main(String[] args) {
-         SimpleFixedStack stack = new SimpleFixedStack(10);
-
-
-    }
 }

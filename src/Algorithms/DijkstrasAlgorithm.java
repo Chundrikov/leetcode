@@ -13,7 +13,7 @@ public class DijkstrasAlgorithm {
         Stack<String> operation = new Stack<>();
         Stack<Integer> number = new Stack<>();
 
-        //also we we focus on the brackets
+        //also we focus on the brackets
         // and as soon as they close, we do an arithmetic operation,
         // taking data from the stacks
         String trimedString = in.replaceAll("\\s","");
@@ -21,7 +21,6 @@ public class DijkstrasAlgorithm {
 
         for (char ch: trimedString.toCharArray()) {
             if (String.valueOf(ch).equals("(")) {
-                continue;
             } else if (String.valueOf(ch).equals("+")) {
                 operation.push(String.valueOf(ch));
             } else if (String.valueOf(ch).equals("-")) {
