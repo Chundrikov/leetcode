@@ -1,4 +1,4 @@
-package Algorithms;
+package algorithms;
 
 public class RemoveDuplicates {
 
@@ -23,11 +23,5 @@ public class RemoveDuplicates {
             nums[j] = nums[j+1];
         }
         return nums;
-    }
-
-    public static void main(String[] args) {
-        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
-        int[] nums = {0,0,1,1,1,2,2,3,3,4};
-        System.out.println(removeDuplicates.removeDuplicates(nums));
     }
 }
