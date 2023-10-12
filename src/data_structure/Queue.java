@@ -1,4 +1,4 @@
-package DataStructures;
+package data_structure;
 
 public class Queue<T> {
 

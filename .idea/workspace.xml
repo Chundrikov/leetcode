@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60c55170-74f5-45c0-a9ba-8cbd3154df07" name="Changes" comment="add primitive Queue realization">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/DijkstrasAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/DuplicatesSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/DuplicatesSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/MergedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/MergedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/RemoveElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/RomanNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/RomanNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/SimpleFixedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/SimpleFixedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/RemoveElement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chundrikov &lt;tihomirova.natalia-t@yandex.ru&gt;" />
+        <option value="tihomir &lt;tihomirova.natalia-t@yandex.ru&gt;" />
+        <option value="nmohnik &lt;tihomirova.natalia-t@yandex.ru&gt;" />
+        <option value="n" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/algorithms/ListNode.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/algorithms/SimpleFixedStack.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="minikube" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CDI6ewxhNMBDeCcR0CGiccX0Y6" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nataliemokhnik/IdeaProjects/leetcode2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.LeetCodeSolver">
+    <configuration name="Algorithms.DijkstrasAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.DijkstrasAlgorithm" />
+      <module name="leetcode2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Algorithms.TwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.TwoSortedArrays" />
+      <module name="leetcode2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.DuplicatesSortedArray" />
+      <module name="leetcode2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCodeSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeSolver" />
+      <module name="leetcode2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.RemoveDuplicates" />
+      <module name="leetcode2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LeetCodeSolver" />
+        <item itemvalue="Application.RemoveDuplicates" />
+        <item itemvalue="Application.DuplicatesSortedArray" />
+        <item itemvalue="Application.Algorithms.DijkstrasAlgorithm" />
+        <item itemvalue="Application.Algorithms.TwoSortedArrays" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60c55170-74f5-45c0-a9ba-8cbd3154df07" name="Changes" comment="" />
+      <created>1658330554613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658330554613</updated>
+      <workItem from="1658330556284" duration="4784000" />
+      <workItem from="1658414756944" duration="8883000" />
+      <workItem from="1658827281259" duration="594000" />
+      <workItem from="1658830881770" duration="148000" />
+      <workItem from="1658831343353" duration="591000" />
+      <workItem from="1658835573499" duration="1188000" />
+      <workItem from="1658933174953" duration="1091000" />
+      <workItem from="1659602537656" duration="5579000" />
+      <workItem from="1660199392395" duration="6772000" />
+      <workItem from="1660311146634" duration="2393000" />
+      <workItem from="1660494129876" duration="1849000" />
+      <workItem from="1660596382298" duration="1934000" />
+      <workItem from="1661024994868" duration="5151000" />
+      <workItem from="1661161959888" duration="3967000" />
+      <workItem from="1661246811557" duration="676000" />
+      <workItem from="1661410501510" duration="2236000" />
+      <workItem from="1661777790149" duration="595000" />
+      <workItem from="1662116281565" duration="618000" />
+      <workItem from="1662367769969" duration="2979000" />
+      <workItem from="1662373210076" duration="1975000" />
+      <workItem from="1663161581970" duration="3843000" />
+      <workItem from="1663323664495" duration="7162000" />
+      <workItem from="1663671296041" duration="690000" />
+      <workItem from="1664998352015" duration="5000" />
+      <workItem from="1664998374781" duration="599000" />
+      <workItem from="1691059837071" duration="2529000" />
+      <workItem from="1691490662512" duration="487000" />
+      <workItem from="1692216519642" duration="2278000" />
+      <workItem from="1692801917734" duration="265000" />
+      <workItem from="1693250846925" duration="4423000" />
+      <workItem from="1695033818563" duration="89000" />
+      <workItem from="1695560391541" duration="170000" />
+      <workItem from="1697141858305" duration="313000" />
+    </task>
+    <task id="LOCAL-00001" summary="add some solves">
+      <created>1658346158667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658346158667</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix ValidParentheses to more easy solution">
+      <created>1658417939603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658417939604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dijkstra 's algorithm for calculating the expression">
+      <created>1660209345707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660209345707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add simpleStack and merged listNodes">
+      <created>1660596478314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660596478314</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add simpleStack and merged listNodes">
+      <created>1660596530106</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660596530106</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add duplicates in array">
+      <created>1661178845943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178845943</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add duplicates in array">
+      <created>1661178896761</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661178896761</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add duplicates in array">
+      <created>1663161655262</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663161655262</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add primitive Queue realization">
+      <created>1663586171941</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663586171941</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add primitive Queue realization">
+      <created>1664998472013</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664998472013</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add primitive Queue realization">
+      <created>1697142036386</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697142036386</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add some solves" />
+    <MESSAGE value="fix ValidParentheses to more easy solution" />
+    <MESSAGE value="dijkstra 's algorithm for calculating the expression" />
+    <MESSAGE value="add simpleStack and merged listNodes" />
+    <MESSAGE value="add duplicates in array" />
+    <MESSAGE value="add primitive Queue realization" />
+    <option name="LAST_COMMIT_MESSAGE" value="add primitive Queue realization" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ValidParentheses.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ListNode.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/DijkstrasAlgorithm.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/ListNode.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/RemoveDuplicates.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
